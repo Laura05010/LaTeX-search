@@ -175,7 +175,7 @@ const CommandList = [
   },{
     command: '\\in',
     example: 'a \\in A',
-    descriptions: ['is member of', 'in', 'belongs to set'],
+    descriptions: ['is member of', 'in', 'belongs to set','is an element of'],
   },{
     command: '\\ni',
     example: 'A \\ni a',
@@ -509,7 +509,7 @@ const greekAlphabet = [
   {command: '\\gamma', example: '\\gamma', descriptions: ['Gamma']},
   {command: '\\delta', example: '\\delta', descriptions: ['delta']},
   {command: '\\Delta', example: '\\Delta', descriptions: ['Delta']},
-  {command: '\\epsilon', example: '\\epsilon', descriptions: ['Epsilon']},
+  {command: '\\epsilon', example: '\\epsilon', descriptions: ['Epsilon','Element of']},
   {command: '\\zeta', example: '\\zeta', descriptions: ['Zeta']},
   {command: '\\eta', example: '\\eta', descriptions: ['Eta']},
   {command: '\\theta', example: '\\theta', descriptions: ['Theta']},
