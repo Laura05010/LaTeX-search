@@ -242,8 +242,8 @@ const CommandList = [
     descriptions: ['contour integral'],
   },{
     command: '\\overline{}',
-    example: '\\overline{I}',
-    descriptions: ['Overline'],
+    example: '\\frac{1}{3}= 0.3333333\\overline{3}',
+    descriptions: ['Overline', 'Approximation', 'Vinculum', 'Repeating decimal', 'decimal'],
   },{
     command: '\\underline{}',
     example: '\\underline{I}',
@@ -251,7 +251,7 @@ const CommandList = [
   },{
     command: '\\sum_{}^{}',
     example: '\\sum_{n=0}^{\\infty} x',
-    descriptions: ['Sum', 'summation', 'Sigma'],
+    descriptions: ['Sum', 'Summation', 'Sigma'],
   },{
     command: '\\prod_{}^{}',
     example: '\\prod_{n=0}^{\\infty} x',
